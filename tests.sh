@@ -25,7 +25,7 @@ for file in $(ls | grep -v *.sh); do
         echo -e "${RED}Test failed on file $file${NC}"
         echo "-----------------"
         echo "Your Output"
-        echo $NATHAN_INTERPRETER 
+        echo $INTERPRETER 
         echo "-----------------"
         echo "Expected Output"
         echo $PYTHON_INTERPRETER
